@@ -1,1 +1,55 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"footer":{"type":"footer","settings":{"color_scheme":"background-1","newsletter_enable":true,"newsletter_heading":"Subscribe to our emails","enable_follow_on_shop":true,"show_social":true,"enable_country_selector":true,"enable_language_selector":true,"payment_enable":true,"show_policy":false,"margin_top":0,"padding_top":36,"padding_bottom":36}}},"order":["footer"]}
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "ccc367ca-16ff-4a25-9275-ca894bffec7e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LOGO_1.svg",
+            "image_width": 150,
+            "alignment": "center"
+          }
+        },
+        "d239dd2f-580f-4281-85ab-e42b56840ab4": {
+          "type": "text",
+          "settings": {
+            "heading": "Our Mision",
+            "subtext": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc congue nisi vitae suscipit tellus mauris a diam maecenas.<\/p>"
+          }
+        },
+        "fd37c617-b711-45b9-936e-bc80854148be": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "ccc367ca-16ff-4a25-9275-ca894bffec7e",
+        "d239dd2f-580f-4281-85ab-e42b56840ab4",
+        "fd37c617-b711-45b9-936e-bc80854148be"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "newsletter_enable": true,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
