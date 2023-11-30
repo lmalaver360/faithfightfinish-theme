@@ -28,6 +28,36 @@
         "show_text_below": false
       }
     },
+    "bfbde547-5a5a-4e61-bbc3-f49d12a9e0ab": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21598847828243__bfbde547-5a5a-4e61-bbc3-f49d12a9e0ab-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>The Faith Fight Finish Foundation <\/br> <\/strong>by Dak Prescott",
+            "heading_size": "h1"
+          }
+        },
+        "template--21598847828243__bfbde547-5a5a-4e61-bbc3-f49d12a9e0ab-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>invests in a better future by empowering individuals, families, and communities to find strength through adversity. 100% of the profits from your purchase today will support FFF’s mission.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21598847828243__bfbde547-5a5a-4e61-bbc3-f49d12a9e0ab-heading-1",
+        "template--21598847828243__bfbde547-5a5a-4e61-bbc3-f49d12a9e0ab-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -59,6 +89,7 @@
   },
   "order": [
     "image_banner",
+    "bfbde547-5a5a-4e61-bbc3-f49d12a9e0ab",
     "featured_collection"
   ]
 }
