@@ -49,13 +49,16 @@
         "template--21598847828243__bfbde547-5a5a-4e61-bbc3-f49d12a9e0ab-heading-1",
         "template--21598847828243__bfbde547-5a5a-4e61-bbc3-f49d12a9e0ab-text-1"
       ],
+      "custom_css": [
+        ".rich-text__heading {font-weight: 100;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "featured_collection": {
