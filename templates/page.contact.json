@@ -1,1 +1,64 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":36,"padding_bottom":36}},"form":{"type":"contact-form","settings":{"heading":"","heading_size":"h1","color_scheme":"background-1","padding_top":36,"padding_bottom":36}}},"order":["main","form"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b327c8a8-8060-478c-84ee-6216e71e5571": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21598847729939__b327c8a8-8060-478c-84ee-6216e71e5571-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "heading_size": "h2"
+          }
+        },
+        "template--21598847729939__b327c8a8-8060-478c-84ee-6216e71e5571-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "DONATE",
+            "button_link": "shopify:\/\/pages\/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21598847729939__b327c8a8-8060-478c-84ee-6216e71e5571-heading-1",
+        "template--21598847729939__b327c8a8-8060-478c-84ee-6216e71e5571-button-1"
+      ],
+      "custom_css": [
+        ".button--primary{border-radius: 10px}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-60aa6ae8-8fd5-483f-9d6d-219d8edb5299",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    }
+  },
+  "order": [
+    "main",
+    "form",
+    "b327c8a8-8060-478c-84ee-6216e71e5571"
+  ]
+}
