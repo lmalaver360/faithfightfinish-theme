@@ -61,31 +61,41 @@
         "padding_bottom": 100
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "858898c5-d592-4f44-91bd-31fed5e5f323": {
+      "type": "collage",
+      "blocks": {
+        "template--21598847828243__858898c5-d592-4f44-91bd-31fed5e5f323-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "a6159431-e97a-4a9e-8a19-863317435395": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "2c50a169-ee99-4966-b7a5-2ac9dd056f4a": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21598847828243__858898c5-d592-4f44-91bd-31fed5e5f323-collection-1",
+        "a6159431-e97a-4a9e-8a19-863317435395",
+        "2c50a169-ee99-4966-b7a5-2ac9dd056f4a"
+      ],
       "settings": {
-        "title": "Featured products",
+        "heading": "Shop Collections",
         "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
@@ -93,6 +103,6 @@
   "order": [
     "image_banner",
     "bfbde547-5a5a-4e61-bbc3-f49d12a9e0ab",
-    "featured_collection"
+    "858898c5-d592-4f44-91bd-31fed5e5f323"
   ]
 }
