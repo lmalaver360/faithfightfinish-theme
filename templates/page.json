@@ -1,1 +1,53 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":28,"padding_bottom":28}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "5159a375-5da3-4191-9f90-0083aa4af7b8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21598848123155__5159a375-5da3-4191-9f90-0083aa4af7b8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "heading_size": "h2"
+          }
+        },
+        "template--21598848123155__5159a375-5da3-4191-9f90-0083aa4af7b8-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "DONATE",
+            "button_link": "shopify:\/\/pages\/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21598848123155__5159a375-5da3-4191-9f90-0083aa4af7b8-heading-1",
+        "template--21598848123155__5159a375-5da3-4191-9f90-0083aa4af7b8-button-1"
+      ],
+      "custom_css": [
+        ".button--primary {border-radius: 10px !important;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-60aa6ae8-8fd5-483f-9d6d-219d8edb5299",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "5159a375-5da3-4191-9f90-0083aa4af7b8"
+  ]
+}
