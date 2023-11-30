@@ -44,7 +44,8 @@
         "template--21598847729939__b327c8a8-8060-478c-84ee-6216e71e5571-button-1"
       ],
       "custom_css": [
-        ".button--primary {border-radius: 10px;}"
+        ".button--primary {border-radius: 10px;}",
+        ".rich-text__wrapper {border-bottom: 2px solid; width: 90%; padding-bottom: 83px;}"
       ],
       "settings": {
         "desktop_content_position": "center",
