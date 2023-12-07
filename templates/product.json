@@ -5,6 +5,7 @@
       "blocks": {
         "vendor": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
@@ -38,15 +39,40 @@
             "show_gift_card_recipient": true
           }
         },
-        "description": {
-          "type": "description",
+        "da35e4b9-cfac-4fe3-904b-bbd840c4d74e": {
+          "type": "collapsible_tab",
           "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
           }
         },
-        "share": {
-          "type": "share",
+        "019d3cd8-dc78-408a-ba12-bad68995e98e": {
+          "type": "collapsible_tab",
           "settings": {
-            "share_label": "Share"
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "c5eab936-bd78-4829-9c79-0c304ae3ee5c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "9066873d-5d2c-464b-9274-00497dfe21a9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
           }
         }
       },
@@ -57,19 +83,21 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
-        "share"
+        "da35e4b9-cfac-4fe3-904b-bbd840c4d74e",
+        "019d3cd8-dc78-408a-ba12-bad68995e98e",
+        "c5eab936-bd78-4829-9c79-0c304ae3ee5c",
+        "9066873d-5d2c-464b-9274-00497dfe21a9"
       ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "background-1",
         "media_size": "medium",
         "constrain_to_viewport": true,
-        "media_fit": "contain",
+        "media_fit": "cover",
         "gallery_layout": "thumbnail_slider",
         "media_position": "left",
         "image_zoom": "lightbox",
-        "mobile_thumbnails": "hide",
+        "mobile_thumbnails": "show",
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 36,
@@ -93,10 +121,92 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "e7035952-cd91-4697-be9a-8e6db840277c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21598847861011__e7035952-cd91-4697-be9a-8e6db840277c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--21598847861011__e7035952-cd91-4697-be9a-8e6db840277c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--21598847861011__e7035952-cd91-4697-be9a-8e6db840277c-heading-1",
+        "template--21598847861011__e7035952-cd91-4697-be9a-8e6db840277c-text-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "51197d9a-8ba7-4c81-b534-dfb2e80057eb": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21598847861011__51197d9a-8ba7-4c81-b534-dfb2e80057eb-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--21598847861011__51197d9a-8ba7-4c81-b534-dfb2e80057eb-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21598847861011__51197d9a-8ba7-4c81-b534-dfb2e80057eb-column-1",
+        "template--21598847861011__51197d9a-8ba7-4c81-b534-dfb2e80057eb-column-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "e7035952-cd91-4697-be9a-8e6db840277c",
+    "51197d9a-8ba7-4c81-b534-dfb2e80057eb"
   ]
 }
