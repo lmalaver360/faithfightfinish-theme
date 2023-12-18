@@ -73,13 +73,13 @@
         "a6159431-e97a-4a9e-8a19-863317435395": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "apparel"
           }
         },
         "2c50a169-ee99-4966-b7a5-2ac9dd056f4a": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "jewelry"
           }
         }
       },
