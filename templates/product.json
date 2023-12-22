@@ -42,8 +42,8 @@
         "da35e4b9-cfac-4fe3-904b-bbd840c4d74e": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
+            "heading": "Materials",
+            "icon": "none",
             "content": "",
             "page": ""
           }
@@ -51,8 +51,8 @@
         "019d3cd8-dc78-408a-ba12-bad68995e98e": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
+            "heading": "Shipping & Returns",
+            "icon": "none",
             "content": "",
             "page": ""
           }
@@ -60,8 +60,8 @@
         "c5eab936-bd78-4829-9c79-0c304ae3ee5c": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
+            "heading": "Dimensions",
+            "icon": "none",
             "content": "",
             "page": ""
           }
@@ -69,8 +69,8 @@
         "9066873d-5d2c-464b-9274-00497dfe21a9": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
+            "heading": "Care Instructions",
+            "icon": "none",
             "content": "",
             "page": ""
           }
