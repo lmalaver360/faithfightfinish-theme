@@ -3524,8 +3524,9 @@ details-disclosure>details {
 
   /* NEW STYLES */
   .menuDesktop ul {
-    gap: clamp(30px, 3.2vw, 60px);
+    gap: clamp(30px, 3vw, 60px);
     flex-wrap: nowrap;
+    align-items: center;
   }
 
   .menuDesktop ul li {
@@ -3533,8 +3534,12 @@ details-disclosure>details {
   }
 
   .menuDesktop ul li span {
-    font-size: clamp(10px, 1.3vw, 20px);
+    font-size: clamp(10px, 1.1vw, 16px);
     font-weight: 400;
+  }
+
+  .menuDesktop ul li a {
+    padding: 0;
   }
 
   .menuDesktop ul li:hover span {
@@ -3551,10 +3556,47 @@ details-disclosure>details {
     pointer-events: auto;
     position: relative;
     text-transform: uppercase;
-    padding: clamp(12px, 1vw, 17px) clamp(25px, 2.4vw, 45px);
+    padding: clamp(12px, 1vw, 15px) clamp(25px, 2.0vw, 40px);
   }
 
   #HeaderMenu-donate:hover {
     background-color: #1D2749;
-    ;
+  }
+
+  #HeaderMenu-donate:hover span {
+    text-decoration: none;
+    font-weight: 400;
+  }
+
+  #HeaderDrawer-donate {
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px 40px;
+    width: fit-content;
+    border-radius: 10px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin-top: clamp(30px, 17vw, 86px);
+  }
+
+  .menuMobile ul li {
+    margin-right: 0;
+  }
+
+  .menuMobile ul li a {
+    font-size: 20px;
+  }
+
+  @media screen and (min-width: 990px) {
+    .header {
+      padding-top: clamp(14px, 2vw, 25px) !important;
+      padding-bottom: clamp(14px, 2vw, 25px) !important;
+    }
+
+    .menuDesktop {
+      padding-left: clamp(30px, 5vw, 140px);
+    }
   }
