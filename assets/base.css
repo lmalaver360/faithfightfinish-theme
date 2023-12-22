@@ -3590,15 +3590,14 @@ details-disclosure>details {
     font-size: 20px;
   }
 
-  #Banner-template--21788516614419__image_banner h2 {
+  .h0 {
     color: white;
     font-weight: 600;
   }
 
-  #shopify-section-template--21788516614419__bfbde547-5a5a-4e61-bbc3-f49d12a9e0ab p {
+  p {
     font-weight: 400;
     line-height: 1.5;
-    color: black;
   }
 
   .cardWrapper .card .card__content {
@@ -3698,6 +3697,86 @@ details-disclosure>details {
     font-weight: 700;
   }
 
+  .redBlock {
+    background-color: #4C1716;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+  }
+
+  .redBlock h2 {
+    font-weight: 700;
+    color: #FF9B92;
+  }
+
+  .twoColumnBlock .multicolumn-card,
+  .multicolumn-card__info {
+    background: transparent !important;
+  }
+
+  .twoColumnBlock h3 {
+    font-weight: 600;
+  }
+
+  .cartNotification .cart-notification__heading {
+    font-weight: 400;
+  }
+
+  .cartNotification .cart-notification__links .button::after,
+  .cartNotification .cart-notification__links .button::before {
+    content: none !important;
+  }
+
+  .cartNotification .cart-notification__links .button,
+  .cartNotification .cart-notification__links .button-label {
+    border-radius: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .cartNotification .cart-notification__links .button-label {
+    padding-top: 30px;
+    color: #1D2749;
+  }
+
+  .cartNotification .cart-notification__links .button--secondary {
+    background-color: #E6E6E6;
+  }
+
+  cart-items .title-wrapper-with-link h1 {
+    font-weight: 700;
+  }
+
+  cart-items .title-wrapper-with-link a {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #1D2749;
+  }
+
+  cart-items .cart-quantity::after,
+  cart-items .cart-quantity::before {
+    content: none;
+  }
+
+  cart-items .cart-quantity {
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  .cartFooter small {
+    font-weight: 400;
+  }
+
+  .cartFooter .cart__ctas .button::after,
+  .cartFooter .cart__ctas .button::before {
+    content: none;
+  }
+
+  .cartFooter .cart__ctas .button {
+    border-radius: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
 
   @media screen and (min-width: 990px) {
     .header {
