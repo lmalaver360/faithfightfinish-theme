@@ -146,6 +146,7 @@
         "template--21598847861011__e7035952-cd91-4697-be9a-8e6db840277c-text-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/photoProduct.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
